@@ -1,7 +1,7 @@
 name: guestbook-ui
 namespace: default
 deployment:
-  replicas: 2
+  replicas: 1
   image:
     name: gcr.io/heptio-images/ks-guestbook-demo
     version: 0.2
